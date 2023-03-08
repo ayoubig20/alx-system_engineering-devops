@@ -1,4 +1,2 @@
 #!/bin/bash
 cd /home/$(whoami)
-#!/bin/bash
-cd /$(whoami)
