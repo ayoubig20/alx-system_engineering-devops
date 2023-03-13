@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'BEGIN{ORS=""} NR==1{print substr($0,1,1)} NR>1{print substr($0,1,1)==" " ? substr($0,2,1) : ""}' input.txt && echo
+cut -c 1 | paste -s -d ''
