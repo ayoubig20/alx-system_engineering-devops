@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty -printf '%P\n' && find . -type f -empty -printf '%P\n'
+find . -mindepth 1 -type d -empty -printf '%P\n' && find . -mindepth 1 -type f -empty -printf '%P\n'
